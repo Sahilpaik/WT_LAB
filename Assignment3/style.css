@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    background-color :#007bff;
+}
+
+h2 {
+    text-align: center;
+    background-color: burlywood;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group input[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.input-group input[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 5px;
+}
+body {
+    background-image: url('sanjivani.jpeg');
+  }

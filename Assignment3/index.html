@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="examRegistrationForm" action="#" method="POST">
+        
+        <h1>Sanjivani College  </h1>
+        <h2>Exam Registration Form</h2>
+        <div class="input-group">
+            <label for="firstName">First Name: </label>
+            <input type="text" id="firstName" name="firstName" required>
+        </div>
+        <div class="input-group">
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+
+        </div>
+        <div class="input-group">
+            <label for="PRN NO.:"> PRN:</label>
+            <input type="var" id="PRN NO.:" name="PRN" required>
+            
+        </div>
+        <div class="input-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="input-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="input-group">
+            <label for="examYear">Exam Year:</label>
+            <select id="examYear" name="examYear" required>
+                <option value="">Select Exam Year</option>
+                <option value="FY">FY</option>
+                <option value="SY">SY</option>
+                <option value="TY">TY</option>
+                <option value="BTech">BTech</option>
+            </select>
+        </div>
+        <div class="input-group">  
+            <label for="examDate">Exam Date:</label>
+            <input type="date" id="examDate" name="examDate" required>
+        </div>
+        <div class="input-group">
+            <label for="examLocation">Exam Location:</label>
+            <input type="text" id="examLocation" name="examLocation" required>
+        </div>
+        <div class="input-group">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    
+    <script src="script.js"></script>
+</body>
+</html>
